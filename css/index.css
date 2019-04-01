@@ -160,7 +160,7 @@ h5 {
 /* 
 	BASE STYLES -------------------------------- */
 body {
-  padding-top: 480px;
+  padding-top: 470px;
   line-height: 1.3;
 }
 
@@ -432,7 +432,8 @@ button {
 
 @media only screen and (max-width: 600px) {
   .middle-img {
-    display: none;
+    width: 90%;
+    margin: 20px auto;
   }
 }
 
