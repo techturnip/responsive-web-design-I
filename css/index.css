@@ -125,7 +125,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -142,7 +142,7 @@ table {
 html,
 body {
   height: 100%;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 
 h1,
@@ -150,7 +150,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Bangers', cursive;
+  font-family: "Bangers", cursive;
   letter-spacing: 1px;
   margin-bottom: 15px;
 }
@@ -251,8 +251,6 @@ button {
   .by-three {
     width: 31%;
   }
-
-
 }
 
 /* 
@@ -269,15 +267,14 @@ button {
   }
 
   .--hoverable {
-    transition: ease all .25s;
+    transition: ease all 0.25s;
   }
 
   .--hoverable:hover {
     transform: translateY(-6px);
     box-shadow: 0 6px 16px rgba(51, 51, 51, 0.45);
-    transition: ease-in all .25s;
+    transition: ease-in all 0.25s;
   }
-
 }
 
 /* 
@@ -296,7 +293,10 @@ button {
   max-width: 1080px;
   margin: 0 auto;
   justify-content: space-between;
-  background: linear-gradient(45deg, rgb(6, 255, 234) 0%, rgb(0, 195, 255) 40%, rgb(30, 223, 118) 100%);
+  background: linear-gradient(45deg,
+    rgb(6, 255, 234) 0%,
+    rgb(0, 195, 255) 40%,
+    rgb(30, 223, 118) 100%);
   box-shadow: 0 8px 16px rgba(51, 51, 51, 0.3);
 }
 
@@ -304,10 +304,10 @@ button {
   order: 2;
   width: 100%;
   padding: 20px 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
   color: #555;
-  transition: all .25s;
+  transition: all 0.25s;
   border-top: solid 1px rgba(51, 51, 51, 1);
   align-self: center;
   text-align: center;
@@ -316,7 +316,7 @@ button {
 .nav-link:hover {
   color: #000;
   transform: scale(1.25, 1.25);
-  transition: ease-in-out all .3s;
+  transition: ease-in-out all 0.3s;
 }
 
 .nav-logo {
@@ -328,7 +328,6 @@ button {
 .active {
   color: #000;
   transform: scale(1.25, 1.25);
-  border-bottom: solid 1px #333;
 }
 
 /* Responsive Navigation */
@@ -512,8 +511,6 @@ button {
   padding: 0;
   background: url("https://source.unsplash.com/274x274/?computer,programming");
 }
-
-
 
 @media only screen and (max-width: 846px) {
   #about-header {
